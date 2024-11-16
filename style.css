@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url("images/3.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .app {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 100px;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .form textarea {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+  }
+
+  .form button {
+    padding: 10px 20px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .form button:hover {
+    background: #0056b3;
+  }
+
+  .posts {
+    margin-top: 20px;
+  }
+
+  .post {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .theme-toggle {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .theme-toggle button {
+    padding: 10px 20px;
+    border: none;
+    background: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .theme-toggle button:hover {
+    background: #1e7e34;
+  }

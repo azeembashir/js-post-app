@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+          <h1>Post App</h1>
+        </div>
+        <div class="form">
+          <textarea id="postContent" rows="4" placeholder="Write your post..."></textarea>
+          <button onclick="addPost()">Add Post</button>
+        </div>
+        <div class="posts" id="postsContainer"></div>
+        <div class="theme-toggle">
+          <button onclick="toggleTheme()">Toggle Theme</button>
+        </div>
+      </div>
+
+      <script src="app.js"></script>
+</body>
+</html>
